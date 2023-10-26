@@ -1,8 +1,8 @@
 import React from "react"
 import { createRoot } from "react-dom/client"
-import { useMicVAD } from "@ricky0123/vad-react"
+import { useMicVAD } from "@antoine-lizee/vad-react"
 
-console.log("demo of @ricky0123/vad-react")
+console.log("demo of @antoine-lizee/vad-react")
 
 const container = document.getElementById("root")
 

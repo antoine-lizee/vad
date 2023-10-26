@@ -1,5 +1,5 @@
 {
-  "name": "@ricky0123/vad-node",
+  "name": "@antoine-lizee/vad-node",
   "description": "Powerful, user-friendly voice activity detector (VAD) for node",
   "keywords": [
     "speech-recognition",
@@ -21,7 +21,7 @@
     "clean": "rm -rf dist"
   },
   "devDependencies": {
-    "@ricky0123/vad-common": "*",
+    "@antoine-lizee/vad-common": "*",
     "@types/mocha": "^10.0.1",
     "chai": "^4.3.7",
     "mocha": "^10.2.0",

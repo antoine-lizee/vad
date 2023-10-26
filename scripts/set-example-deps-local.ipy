@@ -5,9 +5,9 @@
 from pathlib import Path
 
 sources = {
-    "@ricky0123/vad-node": "packages/node",
-    "@ricky0123/vad-web": "packages/web",
-    "@ricky0123/vad-react": "packages/react",
+    "@antoine-lizee/vad-node": "packages/node",
+    "@antoine-lizee/vad-web": "packages/web",
+    "@antoine-lizee/vad-react": "packages/react",
 }
 
 for example_dir in Path("examples").glob("*"):

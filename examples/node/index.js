@@ -1,4 +1,4 @@
-const vad = require("@ricky0123/vad-node")
+const vad = require("@antoine-lizee/vad-node")
 const wav = require("wav-decoder")
 const fs = require("fs")
 

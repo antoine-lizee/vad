@@ -1,4 +1,4 @@
-import { useMicVAD, utils } from "@ricky0123/vad-react"
+import { useMicVAD, utils } from "@antoine-lizee/vad-react"
 import React, { useState } from "react"
 import { createRoot } from "react-dom/client"
 import { motion } from "framer-motion"

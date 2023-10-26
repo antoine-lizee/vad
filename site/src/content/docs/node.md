@@ -9,13 +9,13 @@ tags: docs
 
 1. Install `@ricky0123/vad-node`:
     ```sh
-    npm i @ricky0123/vad-node
+    npm i @antoine-lizee/vad-node
     ```
    No other setup is necessary.
 
 1. Example usage:
     ```typescript
-    const vad = require("@ricky0123/vad-node")
+    const vad = require("@antoine-lizee/vad-node")
     
     const options: Partial<vad.NonRealTimeVADOptions> = { /* ... */ }
     const myvad = await vad.NonRealTimeVAD.new(options)

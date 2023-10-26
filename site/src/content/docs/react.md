@@ -9,14 +9,14 @@ tags: docs
 
 1. Install `@ricky0123/vad-react`:
     ```sh
-    npm i @ricky0123/vad-react
+    npm i @antoine-lizee/vad-react
     ```
 
 1. Follow the [bundling instructions](/docs/browser/#bundling) for `@ricky0123/vad-web`. To recap, you need to serve the worklet and onnx files that come distributed with `@ricky0123/vad-web` and the wasm files from `onnxruntime-web`, which will both be pulled in as dependencies.
 
 1. Use the `useMicVAD` hook to start the voice activity detector:
     ```typescript
-    import { useMicVAD } from "@ricky0123/vad-react"
+    import { useMicVAD } from "@antoine-lizee/vad-react"
     
     const MyComponent = () => {
       const vad = useMicVAD({

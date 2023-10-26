@@ -15,7 +15,7 @@ The VAD can be used via script tags as follows:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@ricky0123/vad-web@0.0.7/dist/bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@antoine-lizee/vad-web@0.0.7/dist/bundle.min.js"></script>
 <script>
   async function main() {
     const myvad = await vad.MicVAD.new({
@@ -34,13 +34,13 @@ The VAD can be used via script tags as follows:
 To use the VAD in a frontend project managed by a bundler like Webpack, install `@ricky0123/vad-web` with a command like
 
 ```sh
-npm i @ricky0123/vad-web
+npm i @antoine-lizee/vad-web
 ```
 
 and use an import like:
 
 ```typescript
-import { MicVAD } from "@ricky0123/vad-web"
+import { MicVAD } from "@antoine-lizee/vad-web"
 const myvad = await MicVAD.new({
   onSpeechEnd: (audio) => {
     // do something with `audio` (Float32Array of audio samples at sample rate 16000)...
@@ -68,11 +68,11 @@ module.exports = {
       patterns: [
         // ...
         {
-          from: "node_modules/@ricky0123/vad-web/dist/vad.worklet.bundle.min.js",
+          from: "node_modules/@antoine-lizee/vad-web/dist/vad.worklet.bundle.min.js",
           to: "[name][ext]",
         },
         {
-          from: "node_modules/@ricky0123/vad-web/dist/*.onnx",
+          from: "node_modules/@antoine-lizee/vad-web/dist/*.onnx",
           to: "[name][ext]",
         },
         { from: "node_modules/onnxruntime-web/dist/*.wasm", to: "[name][ext]" },

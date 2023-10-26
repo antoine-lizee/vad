@@ -22,7 +22,7 @@ The `MicVAD` API is for recording user audio in the browser and running callback
 ### Example
 
 ```typescript
-import { MicVAD } from "@ricky0123/vad-web"
+import { MicVAD } from "@antoine-lizee/vad-web"
 const myvad = await MicVAD.new({
   onSpeechEnd: (audio) => {
     // do something with `audio` (Float32Array of audio samples at sample rate 16000)...
@@ -72,7 +72,7 @@ The `NonRealTimeVAD` API is for identifying segments of user speech if you alrea
 ### Example
 
 ```typescript
-const vad = require("@ricky0123/vad-node") // or @ricky0123/vad-web
+const vad = require("@antoine-lizee/vad-node") // or @antoine-lizee/vad-web
 
 const options: Partial<vad.NonRealTimeVADOptions> = { /* ... */ }
 const myvad = await vad.NonRealTimeVAD.new(options)
@@ -119,7 +119,7 @@ A React hook wrapper for [`MicVAD`](/docs/API/#micvad). Use this if you want to 
 ### Example
 
 ```typescript
-import { useMicVAD } from "@ricky0123/vad-react"
+import { useMicVAD } from "@antoine-lizee/vad-react"
 
 const MyComponent = () => {
   const vad = useMicVAD({

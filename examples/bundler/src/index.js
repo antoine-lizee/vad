@@ -1,5 +1,5 @@
 import { interpolateInferno } from "d3-scale-chromatic"
-import { MicVAD, utils } from "@ricky0123/vad-web"
+import { MicVAD, utils } from "@antoine-lizee/vad-web"
 
 const loading = setInterval(() => {
   const indicator = document.getElementById("indicator")

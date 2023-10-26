@@ -1,6 +1,6 @@
 import React, { useReducer, useState } from "react"
 import ReactDOM from "react-dom"
-import { useMicVAD, utils } from "@ricky0123/vad-react"
+import { useMicVAD, utils } from "@antoine-lizee/vad-react"
 
 const domContainer = document.querySelector("#root")
 const root = ReactDOM.createRoot(domContainer)

@@ -1,4 +1,4 @@
-import { useMicVAD, utils } from "@ricky0123/vad-react"
+import { useMicVAD, utils } from "@antoine-lizee/vad-react"
 import { useState } from "react"
 
 export const Demo = () => {

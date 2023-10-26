@@ -1,5 +1,5 @@
 const sinon = require("sinon")
-const vad = require("@ricky0123/vad-node")
+const vad = require("@antoine-lizee/vad-node")
 const { assert } = require("chai")
 
 /**

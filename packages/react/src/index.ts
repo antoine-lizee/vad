@@ -1,8 +1,8 @@
-import type { RealTimeVADOptions } from "@ricky0123/vad-web"
-import { MicVAD, defaultRealTimeVADOptions } from "@ricky0123/vad-web"
+import type { RealTimeVADOptions } from "@antoine-lizee/vad-web"
+import { MicVAD, defaultRealTimeVADOptions } from "@antoine-lizee/vad-web"
 import React, { useEffect, useReducer, useState } from "react"
 
-export { utils } from "@ricky0123/vad-web"
+export { utils } from "@antoine-lizee/vad-web"
 
 interface ReactOptions {
   startOnLoad: boolean
