@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "onnxruntime-web": "^1.14.0",
-    "@ricky0123/vad-web": "*"
+    "@ricky0123/vad-web": "antoine-lizee/vad#head=alizee/update-deps&workspace=packages/web"
   },
   "peerDependencies": {
     "react": "^18",
